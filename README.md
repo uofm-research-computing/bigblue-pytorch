@@ -2,7 +2,12 @@
 Installing pytorch on bigblue isn't too difficult, but the default install pulls different GPU libraries. This is great if everything is compatible, but terrible when they aren't compatible. Also, given the large dependency list, it is preferable to install it in /project instead of /home. To make this easier, we will use a python virtual environment.
 
 # Installation
-Installation doesn't need to occur on a GPU node specifically. BigBlue's login nodes are capable of compiling or pulling any GPU library. There are three installation options listed below.
+Installation doesn't need to occur on a GPU node specifically. BigBlue's login nodes are capable of compiling or pulling any GPU library. To pull this project, run:
+```
+git clone https://github.com/uofm-research-computing/bigblue-pytorch.git
+```
+
+There are three installation options listed below.
 
 ## 1. PIP installation
 To install via pip, just run:
